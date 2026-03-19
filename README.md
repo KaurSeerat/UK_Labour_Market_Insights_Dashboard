@@ -1,117 +1,92 @@
-# 🇬🇧 UK Labour Market Intelligence Dashboard  
-**Power BI | Data Analysis | Labour Market Insights**
+# 🇬🇧 UK Labour Market Intelligence Dashboard
+
+> Analysed **100,000+ UK job postings** to uncover hiring trends, salary distribution, and regional demand patterns using Power BI.
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat&logo=powerbi)](dashboard/)
+[![Excel](https://img.shields.io/badge/Data-Excel%20%2F%20CSV-217346?style=flat&logo=microsoftexcel)](data/)
 
 ---
 
-## 📊 Project Overview
+## 📊 Dashboard Preview
 
-This project analyses over **100,000 UK job postings** to uncover trends in job demand, salary distribution, and regional hiring patterns.
+![Dashboard Overview](dashboard/dashboard_overview.png)
 
-The objective was to simulate how a **data analyst supports recruitment strategy and workforce planning** by transforming raw job posting data into actionable insights using Power BI.
+> Download the `.pbix` from `/dashboard/` and open in Power BI Desktop for full interactive filtering by job type, region, and salary band.
 
 ---
 
 ## 🎯 Business Problem
 
-Recruiters, job seekers, and workforce planners need to answer key questions:
+Recruiters, job seekers, and workforce planners need to answer:
 
 - Which job roles are most in demand in the UK?
 - Which regions have the highest hiring activity?
-- How does **job demand compare to salary levels** across industries?
+- How does job demand compare to salary levels across industries?
 - What proportion of roles are contract vs permanent?
-
-This project addresses these questions through data analysis and interactive dashboards.
 
 ---
 
 ## 📈 Key Insights
 
-- **Care Assistant roles** have the highest demand, highlighting strong hiring pressure in healthcare  
-- **Greater Manchester** has the highest number of job postings (~5,500), indicating a major regional hiring hub  
-- **Healthcare & Nursing roles** show high demand but only mid-range salaries  
-- **Consultancy and Finance roles** offer higher salaries despite lower demand  
-- **Contract roles represent only ~13.4%** of total job postings, with permanent roles dominating  
+| Finding | Detail |
+|---|---|
+| Highest demand role | Care Assistant — reflects sustained healthcare hiring pressure |
+| Top hiring region | Greater Manchester (~5,500 postings) |
+| Healthcare & Nursing | High demand, mid-range salaries — recruitment pressure point |
+| Finance & Consultancy | Higher salaries despite lower posting volume |
+| Contract share | Only ~13.4% of total postings — permanent roles dominate |
 
 ---
 
 ## 💡 Business Recommendations
 
-- Organisations should prioritise **healthcare recruitment strategies** to meet sustained demand  
-- Employers in high-demand sectors may need to **increase salaries** to attract talent  
-- Recruitment agencies should focus on **high-demand regions like Manchester**  
-- Job seekers targeting higher pay should consider **finance and consultancy roles**  
-- Businesses relying on contract hiring may need to reassess strategy due to **low contract role share**
+- Organisations should prioritise healthcare recruitment strategies to address sustained demand
+- Employers in high-demand sectors may need to increase salaries to remain competitive
+- Recruitment agencies should focus resources on high-demand regions like Manchester
+- Job seekers targeting higher pay should consider finance and consultancy roles
 
 ---
 
-## 📊 Dashboard Overview
+## 📊 Dashboard Features
 
-The Power BI dashboard provides:
-
-- **KPI Summary**
-  - Total job postings  
-  - % of contract roles  
-
-- **Job Demand Analysis**
-  - Most in-demand job titles  
-
-- **Regional Analysis**
-  - Top UK cities by job postings  
-
-- **Demand vs Salary Comparison**
-  - Relationship between job demand and average salary across categories  
-
-- **Interactive Filters**
-  - Job type (Permanent, Contract, Temporary, Apprenticeship)  
+- **KPI Summary** — total postings, % contract roles
+- **Job Demand Analysis** — most in-demand job titles
+- **Regional Analysis** — top UK cities by posting volume
+- **Demand vs Salary** — relationship between demand and average salary by category
+- **Interactive Filters** — job type (permanent, contract, temporary, apprenticeship)
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠 Tools & Technologies
 
-- **Power BI** – Dashboard development, DAX, Power Query  
-- **Excel / CSV Data** – Data source and preprocessing  
-- **Data Analysis Techniques**
-  - Data cleaning  
-  - Aggregation  
-  - Exploratory data analysis (EDA)  
+- **Power BI** — dashboard development, DAX measures, Power Query transformations
+- **Excel / CSV** — source data and preprocessing
 
 ---
 
-## 📸 Dashboard Preview
+## 📂 Repository Structure
 
-<img width="800" height="750" alt="dashboard_overview" src="https://github.com/user-attachments/assets/0cd7f190-2333-4891-a60d-158ced9e170b" />
-(dashboard/dashboard_overview.png)
-
----
-
-## 🚀 Key Skills Demonstrated
-
-- Data cleaning and transformation using Power Query  
-- Building interactive dashboards in Power BI  
-- Creating KPIs and business-focused metrics  
-- Identifying trends and patterns in large datasets  
-- Communicating insights clearly through visualisation  
+```
+data/          → source dataset (job postings CSV)
+dashboard/     → Power BI .pbix file + dashboard_overview.png
+README.md
+```
 
 ---
 
-## 📌 Future Improvements
+## 🚀 Future Improvements
 
-- Integrate more recent and granular datasets for trend analysis over time  
-- Perform deeper analysis using SQL or Python (e.g. salary prediction, skill demand trends)  
-- Add industry-level segmentation for more targeted insights  
+- [ ] Add Python EDA notebook — salary distribution analysis, top skills by region using Pandas and Matplotlib
+- [ ] Integrate more recent dataset for year-on-year trend comparison
+- [ ] SQL-based analysis layer for deeper segmentation
 
----
-
-## 🔗 Project Links
-
-- 📁 GitHub Repository:
-  https://github.com/KaurSeerat/UK_Labour_Market_Insights_Dashboard
- 
 ---
 
 ## 👩‍💻 Author
 
-**Seerat Kaur**  
-Aspiring Data Analyst | SQL • Power BI • Python  
+**Seerat Kaur** — Junior Data Analyst
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/seerat-kaur-4878bb249/)
+[![GitHub](https://img.shields.io/badge/GitHub-KaurSeerat-181717?style=flat&logo=github)](https://github.com/KaurSeerat)
+
+**Related project:** [Anomaly Detection & Risk Scoring](https://github.com/KaurSeerat/Anomaly-Detection-And-Risk-Scoring) — end-to-end Python + SQL + Power BI analytics on financial transaction data.
