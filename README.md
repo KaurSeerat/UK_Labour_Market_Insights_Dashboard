@@ -104,7 +104,8 @@ The Power BI dashboard provides:
 
 ## 🔗 Project Links
 
-- 📁 GitHub Repository: https://github.com/KaurSeerat/UK_Job_Market_Analysis  
+- 📁 GitHub Repository:
+  https://github.com/KaurSeerat/UK_Labour_Market_Insights_Dashboard
  
 ---
 
